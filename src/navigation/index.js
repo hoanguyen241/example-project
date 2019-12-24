@@ -10,6 +10,7 @@ import Demo from '../containers/demo';
 import VideoCallScreen from '../containers/video-call';
 import VideoCallAcceptScreen from '../containers/video-call-accept';
 import MapScreen from '../containers/map';
+import ViewPagerScreen from '../containers/view-pager';
   
 const homeStack = createStackNavigator({
     Home: {
@@ -38,6 +39,12 @@ const homeStack = createStackNavigator({
     },
     Map: {
         screen: MapScreen,
+        navigationOptions:{
+            header: null  
+        }
+    },
+    ViewPager: {
+        screen: ViewPagerScreen,
         navigationOptions:{
             header: null  
         }

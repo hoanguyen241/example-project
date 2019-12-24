@@ -1,7 +1,4 @@
 const demoReducer = (state = {}, action) => {
-     console.log('================action====================');
-     console.log(action);
-     console.log('====================================');
      switch (action.type) {
           case 'GET_NEWS':
                return { ...state, loading: true };

@@ -4,4 +4,5 @@ export default {
   VideoCall: "VideoCall",
   VideoCallAccept: "VideoCallAccept",
   Map: "Map",
+  ViewPager: "ViewPager",
 }
