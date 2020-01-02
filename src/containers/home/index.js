@@ -23,6 +23,7 @@ class HomeScreen extends Component {
       case 0:
         //this.props.navigation.navigate(Screens.Demo)
         Alert.alert("Home","Index")
+        //this.setState({},()=>{console.warn("1")})
         break;
       case 1:
         this.props.navigation.navigate(Screens.Demo)
